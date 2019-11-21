@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.color-morado {
+  color: #3b04db;
+}
+.color-naranja {
+  color: #ff4e56;
+}
+.fuente-nunito {
+  font-family: "Nunito Sans", sans-serif;
+}
+.fuente-muli {
+  font-family: "Muli", sans-serif;
+}
+.inicio {
+  height: 100vh;
+  background-image: url(../images/banner-1.png);
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: fixed;
+}
+.header-izq {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 25px;
+  margin-left: 10vw;
+}
+.header-der {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-right: 10vw;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  padding-top: 30px;
+}
+nav ul li a {
+  color: antiquewhite;
+  font-family: "Nunito Sans", sans-serif;
+  text-decoration: none;
+}
