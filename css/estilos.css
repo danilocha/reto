@@ -15,7 +15,7 @@
   font-family: "Muli", sans-serif;
 }
 .inicio {
-  height: 100vh;
+  height: 860px;
   background-image: url(../images/banner-1.png);
 }
 nav {
@@ -46,4 +46,50 @@ nav ul li a {
   color: antiquewhite;
   font-family: "Nunito Sans", sans-serif;
   text-decoration: none;
+}
+.contenedor {
+  margin: auto;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.header-content-izq {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-top: 15vh;
+}
+.header-content-der {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  margin-top: 15vh;
+  color: whitesmoke;
+  font-family: "Muli", sans-serif;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.header-content-der h1 {
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+.header-content-der p {
+  color: #ccc;
+}
+.margen {
+  margin-top: 40px;
+}
+.header-content-der a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  border: solid 1px white;
+  padding: 15px 40px;
+  border-radius: 50px;
+  transition-duration: 0.5s;
+}
+.header-content-der a:hover {
+  color: #3b04db;
+  background-color: white;
+}
+.features {
+  height: 100vh;
 }
